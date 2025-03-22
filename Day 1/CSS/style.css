@@ -1,0 +1,39 @@
+.head{
+    color: white;
+    text-align: center;
+}
+.box-model{
+    background-image: url(https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523);
+   
+    background-size: contain;
+    font-family: "Roboto";
+    width: 400px;
+    height: 750px;
+
+}
+.para-1{
+    text-align:left;
+    color: white;
+}
+.head-1{
+    text-align: left;
+    color: white;
+}
+.para-2{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+.para-3{
+    text-align: center;
+    color: white;
+}
+.button {
+    background-color: orange;
+    align-items: center;
+    color: white; 
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
