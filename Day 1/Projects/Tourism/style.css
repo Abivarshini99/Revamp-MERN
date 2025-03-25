@@ -1,0 +1,14 @@
+.bg-container{
+    background-image: url(https://ik.imagekit.io/xmxszgvd1/Tourism%20project/sea-ocean?updatedAt=1742803758306);
+    height: 600px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+.bg-page-container{
+    background-image: url(https://ik.imagekit.io/xmxszgvd1/Tourism%20project/taj-mahal-building?updatedAt=1742803917974);
+    height: 600px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

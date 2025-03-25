@@ -30,10 +30,9 @@
 }
 .button {
     background-color: orange;
-    align-items: center;
     color: white; 
     font-size: 20px;
     padding: 10px 15px;
-    cursor: pointer;
+    background-position: center;
 
 }
