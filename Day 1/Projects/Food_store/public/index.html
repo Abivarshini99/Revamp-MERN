@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+
+   <!-- Google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.
+   com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
+   900;1,100;1,200;1,300;1,400;1,500;1,600;1,700
+   ;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+   <!-- Tailwind css -->
+   <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+           <!-- nav start -->
+          <nav  class="2xl:container mx-auto bg-white">
+            <div class="W-[80%] mx-auto flex items-center py-3 justify-between px-8">
+              <div>
+              <img class="h-[80px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/food-munch-img.png?updatedAt=1743340478067" alt="Logo">
+              </div>
+              <div>
+              <ul class="hidden lg:flex gap-4">
+                <li class="font-[roboto] text-slate-700">Why Choose Us?</li>
+                <li class="font-[roboto] text-slate-700">Explore Menu</li>
+                <li class="font-[roboto] text-slate-700">Delivery & Payment</li>
+                <li class="font-[roboto] text-slate-700"> Follow Us</li>
+              </ul>
+            </div>
+            <!-- Nav bar -->
+            <div class="block lg:hidden">
+                          <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  height="1em"
+                  {...props}
+                  class="h-12 w-12"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"
+                  ></path>
+                </svg>
+            </div>
+            </div>
+          </nav>
+          <!-- nav end -->
+          <!-- hero section start -->
+           <section>
+           <div class="2xl:container mx-auto head-bg">
+            <div class="w-[80%] mx-auto flex flex-col justify-center items-center h-full gap-5">
+              <h1 class="text-white text-[40px] font-[roboto]">Get Delicious Food Anytime</h1>
+              <h3 class="text-white text-[22px] font-[roboto]">Eat Smart & Healthy</h3>
+              <div class="flex gap-2">
+                <button class="bg-[#C6A900] px-6 py-3 rounded-lg text-white font-[roboto]">View Menu</button>
+               <button class="border border-[#C6A900] px-6 py-3 rounded-lg text-[#C6A900] font-[roboto]">Order Now</button>
+              </div>
+            </div>
+           </div>
+          </section>
+           <!-- hero section End -->
+             <!-- Why Choose us Start -->
+             <section>
+                <div class="2xl:container mx-auto p-5">
+                    <div class="w-[80%] mx-auto py-5">
+                        <h1 class=" text-[28px] font-bold leading-[34px] text-[#183b56]">Why Choose Us?</h1>
+                        <p class="font-[roboto] text-slate-500 ">We use both original recipes and classic versions of famous food items.</p>
+        
+                    </div>
+                    <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <!-- Card 1 -->
+                        <div class="bg-white border p-4 rounded-lg shadow-md flex flex-col items-center">
+                            <img src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/food-serve.png?updatedAt=1743340577427"alt="Foodserve">
+                            <h1 class="font-[roboto] text-[22px] font-[500px] Leading-[26px] py-2">Food Service</h1>
+                            <p class="font-[roboto] text-slate-500">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect. </p>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="bg-white border p-4 rounded-lg shadow-md flex flex-col items-center">
+                            <img src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/fruits-img.png?updatedAt=1743340652190"alt="Fresh Food">
+                            <h1 class="font-[roboto] text-[22px] font-[500px] Leading-[26px] py-2">Food Service</h1>
+                            <p class="font-[roboto] text-slate-500">The Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner
+                                 farms and farm houses so that you always get them tree to plate. </p>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="bg-white border p-4 rounded-lg shadow-md flex flex-col items-center">
+                            <img src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/offers-img.png?updatedAt=1743340623643"alt="Best Offers">
+                            <h1 class="font-[roboto] text-[22px] font-[500px] Leading-[26px] py-2">Food Service</h1>
+                            <p class="font-[roboto] text-slate-500">Food Coupons & Offers upto <strong>50% OFF</strong> and Exclusive Promo Codes on All Online Food Orders. </p>
+                        </div>
+                    </div>
+            
+                </div>
+            </section>
+           <!-- why choose us End -->
+        
+      <!-- Explore menu Start -->
+       <section>
+        <div class="2xl:container mx-auto">
+            <div class="w-[80%] mx-auto py-3">
+                <p class=" text-[28px] font-bold leading-[34px] text-[#183b56]">Explore Menu</p>
+
+            </div>
+            <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+
+                <!-- top card -->
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                    <img class="rounded-[16px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/em-ginger-fried-img.png?updatedAt=1743340816742"alt="non_veg">
+                </div>
+                <h1 class="font-[roboto] text-lg font-[500px] leading-[22px] text-[#323f4b]">Non-Veg Starters</h1>
+                <p class=" flex items-center gap-2 text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        height="1em"
+                        {...props}
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        ></path>
+                      </svg>
+                    </p>
+                </div>
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                    <img class="rounded-[16px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/em-veg-starters-img.png?updatedAt=1743340895395"alt="veg">
+                </div>
+                <h1 class="font-[roboto] text-lg font-[500px] leading-[22px] text-[#323f4b]">Veg Starters</h1>
+                <p class=" flex items-center gap-2 text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        height="1em"
+                        {...props}
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        ></path>
+                      </svg>
+                    </p>
+                </div>
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                    <img class="rounded-[16px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/em-soup-img.png?updatedAt=1743340980870"alt="soup">
+                </div>
+                <h1 class="font-[roboto] text-lg font-[500px] leading-[22px] text-[#323f4b]">Soup</h1>
+                <p class=" flex items-center gap-2 text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        height="1em"
+                        {...props}
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        ></path>
+                      </svg>
+                    </p>
+                </div>
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                    <img class="rounded-[16px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/em-grilled-seafood-img.png?updatedAt=1743340853111"alt="Fish & sea_food">
+                </div>
+                <h1 class="font-[roboto] text-lg font-[500px] leading-[22px] text-[#323f4b]">Fish & Sea food</h1>
+                <p class=" flex items-center gap-2 text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        height="1em"
+                        {...props}
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        ></path>
+                      </svg>
+                    </p>
+                </div>
+
+                <!-- bottom card -->
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                    <img class="rounded-[16px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/em-hyderabadi-biryani-img.png?updatedAt=1743340870623"alt="maincourse">
+                </div>
+                <h1 class="font-[roboto] text-lg font-[500px] leading-[22px] text-[#323f4b]">Main Course</h1>
+                <p class=" flex items-center gap-2 text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        height="1em"
+                        {...props}
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        ></path>
+                      </svg>
+                    </p>
+                </div>
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                    <img class="rounded-[16px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/em-mushroom-noodles-img.png?updatedAt=1743340912743"alt="Noodels">
+                </div>
+                <h1 class="font-[roboto] text-lg font-[500px] leading-[22px] text-[#323f4b]">Noodles</h1>
+                <p class=" flex items-center gap-2 text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        height="1em"
+                        {...props}
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        ></path>
+                      </svg>
+                    </p>
+                </div>
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                    <img class="rounded-[16px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/em-gluten-img.png?updatedAt=1743340939611"alt="Salads">
+                </div>
+                <h1 class="font-[roboto] text-lg font-[500px] leading-[22px] text-[#323f4b]">Salads</h1>
+                <p class=" flex items-center gap-2 text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        height="1em"
+                        {...props}
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        ></path>
+                      </svg>
+                    </p>
+                </div>
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                    <img class="rounded-[16px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/em-coffee-bourbon-img.png?updatedAt=1743340960679"alt="Desserts">
+                </div>
+                <h1 class="font-[roboto] text-lg font-[500px] leading-[22px] text-[#323f4b]">Desserts</h1>
+                <p class=" flex items-center gap-2 text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        height="1em"
+                        {...props}
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        ></path>
+                      </svg>
+                    </p>
+                </div>
+            </div>
+        </div>
+       </section>
+      
+       <!-- Explore menu End -->
+
+
+    <!-- Fresh healthy Start -->
+     <section>
+        <div class="2xl:container mx-auto bg-white py-10">
+            <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3">
+                <div class= "flex justify-center col-span-1">
+                    <img src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/healthy-food-plate-img.png?updatedAt=1743341012197"alt="foodplate">
+                </div>
+                <div class=" flex flex-col items-start justify-center gap-3 col-span-2 ">
+                    <h1 class="font-[roboto] text-[28px] font-bold Leading-[34px] text-[#183B56]">Fresh, Healthy, Organic, Delicious Fruits</h1>
+                    <p class="font-[roboto] text-base font-normal Leading-[24px] text-[#5A7184]">Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from mother nature. 
+                    </p>
+                    <button class="bg-[#C6A900] px-6 py-2 rounded-lg text-white"> Watch video</button>
+                       </div>
+
+            </div>
+
+        </div>
+     </section>
+    <!-- Fresh healthy End -->
+     <!-- Payment option strat -->
+      <section>
+        <div class="2xl-container mx auto">
+            <div class ="w-[80%] mx-auto flex grid-cols-3 gap-5">
+                <div class="space-y-3 col-span-2">
+                    <h1 class="font-[roboto] text-[28px] font-bold Leading-[34px] text-[#183B56]">Delivery and Payment </h1>
+                    <p class="font-[roboto] text-base font-normal Leading-[24px] text-[#5A7184]">Enjoy hassle-free payment with the plenitude of payment options available for you. 
+                        Get live tracking and locate your food on a live map. 
+                        It's quite a sight to see your food arrive to your door. 
+                        Plus, you get a 5% discount on every order every time you pay online. </p>
+                <button class="bg-[#C6A900] px-6 py-2 rounded-lg text-white"> Order Now</button>
+                <!-- Payment card -->
+                <div class="flex gap-5 flex-wrap">
+                    <img class="h-[50px]"src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/visa-card-img.png?updatedAt=1743341032320"alt="visa">
+                    <img class="h-[50px]"src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/master-card-img.png?updatedAt=1743341093175"alt="mastercard">
+                    <img class="h-[50px]"src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/pp.png?updatedAt=1743358460815"alt="paypal">
+                    <img class="h-[50px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/american-express-img.png?updatedAt=1743341120398"alt="American express">
+
+                </div>
+                </div>
+                <!-- image div -->
+                
+                <div class="col-span-1 flex justify-center items-center">
+                    <img class="h-[250px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/delivery-payment-section-img.png?updatedAt=1743341050321"alt="percentage">
+                </div>
+
+            </div>
+
+        </div>
+      </section>
+      <!-- Payment option End-->
+   <!-- Gifts Start -->
+    <section>
+        <div class="2xl:container mx-auto bg-[#FCE9A2]">
+            <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-4 p-16 ">
+                <div class="space-y-3 flex flex-col justify-center items-start col-span-3">
+                    <h1 class="font-[roboto] text-[24px] font-bold Leading-[32px] text-[#183B56]">Thank you for being a valuable customer to us.</h1>
+                    <p class="font-[roboto] text-lg font-normal Leading-[24px] text-[#5A7184]">We have a surprise gift for you </p>
+                    <button class="bg-[#C6A900] px-6 py-3 rounded-lg text-white"> Reedem Gift</button>
+                </div>
+                <div class="flex justify-center col-span-1 px-5">
+                    <img class="h-[250px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/thanking-customers-section-img.png?updatedAt=1743341144300"alt="gift">
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Gifts Ends -->
+    <!-- follow section start -->
+     <section>
+      <div class="2xl:container mx-auto">
+        <div class="w-[80%] mx-auto grid-cols-1">
+          <div class="py-20 flex flex-col items-center gap-5">
+            <h1 class="font-[roboto] text-[24px] font-bold Leading-[32px] text-[#183B56]">Follow Us</h1>
+
+            <!-- Social media div -->
+            <div class="flex gap-5">
+              <div class="bg-[#FAF7E8] p-5 rounded-full">
+                            <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  height="1em"
+                  {...props}
+                  class="h-6 w-6"
+                >
+                  <circle cx="12" cy="12" r="3.2" fill="currentColor"></circle>
+                  <path
+                    fill="currentColor"
+                    d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5s-2.24 5-5 5"
+      ></path>
+    </svg>
+               </div>
+               <div class="bg-[#FAF7E8] p-5 rounded-full">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    height="1em"
+                    {...props}
+                    class="h-6 w-6"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
+                    ></path>
+                     </svg>
+               </div>
+               <div class="bg-[#FAF7E8] p-5 rounded-full">
+                              <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    height="1em"
+                    {...props}
+                    class="h-6 w-6"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"
+                    ></path>
+                  </svg>
+               </div>
+              </div>
+          </div>
+
+      </div>
+      </div>
+     </section>
+    <!-- follow section End -->
+     <!-- Footer start -->
+      <footer class="2xl:container mx-auto bg-[#0D2436]">
+        <div class="w-[80%] mx-auto grid grid-cols-1 ">
+          <div class="py-12 flex flex-col items-center gap-2" >
+            <img class="w-[80px]" src="https://ik.imagekit.io/xmxszgvd1/Food%20Store%20Project/food-munch-img.png?updatedAt=1743340478067"alt="logo">
+      <p class="text-center text-white text-slate-700">orderfood@foodmunch.com</p>
+      <p class="text-center text-white text-slate-700">123 Ayur Vigyan Nagar, New Delhi, India. </p>
+          </div>
+        </div>
+      </footer>
+      <!-- footer End -->
+    
+</body>
+</html>
